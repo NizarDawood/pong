@@ -8,10 +8,11 @@ public class paddel {
         this.y = y;
     }
 public void moveUp(int x, int y){
+        y += y;
 
     }
 public void modveDown(){
-
+            y -= y;
 }
 
     public int getX() {
